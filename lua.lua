@@ -2,7 +2,7 @@
 -- ^^ to render your own videos / download videos
 -- some features may be confusing, theres some video about it here
 -- https://www.youtube.com/channel/UCZ1V2zcSt5Ejmg29baFGt9Q/videos
-local rxztent = "https://cdn.discordapp.com/attachments/1104032480274677822/1104525906204172288/image.png"
+local rxztent = loadstring(game:HttpGet"https://raw.githubusercontent.com/Rxztent/NOOOO/main/e")()
 local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
 local Window = Flux:Window("PC Tools", "Press N to open/close", Color3.fromRGB(255, 110, 48), Enum.KeyCode.N)
 local mouse = game.Players.LocalPlayer:GetMouse()
