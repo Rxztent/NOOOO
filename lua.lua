@@ -12,6 +12,7 @@ local isSpamBlacklist = false
 local isRandomPaint = false
 local isRandomMaterial = false
 local isGridEnabled = false
+local rxzt = "https://cdn.discordapp.com/attachments/1106704027107999796/1106704090563620995/vglfkwrlma231.png"
 
 local materials = {
     "Default",
@@ -591,7 +592,7 @@ end)
 local Tab4 = Window:Tab("Paint", "http://www.roblox.com/asset/?id=6023426915")
 Tab4:Label("Paint Images on Canvas, accepts discord cdn links")
 Tab4:Textbox("1x1 canvas", "requires 1x1 canvas", true, function(text)
-    local link = "https://cdn.discordapp.com/attachments/1104042766524219563/1106754486506098708/1200px-Mona_Lisa2C_by_Leonardo_da_Vinci2C_from_C2RMF_retouched.png"
+    local link = rxzt
     name = "BlockStd"
     checkloop = 0
     waitloop = 0
